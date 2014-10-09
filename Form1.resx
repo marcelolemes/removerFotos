@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="mainMenu1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="camCurso.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>126, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>50</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAQEAAAAAAGAAoMgAAFgAAACgAAABAAAAAgAAAAAEAGAAAAAAAADAAAAAAAAAAAAAAAAAAAAAA
+        AACG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG
+        5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG
+        5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG
+        5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG
+        5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG
+        5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG
+        5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyF5duD49mD49mD49mD49mD49mD49mD49mD49mD
+        49mD49mD49mD49mD49mD49mD49mD49mD49mD49mD49mD49mD49mD49mD49mD49mD49mD49mD49mD49mD
+        49mD49mD49mD49mD49mD49mD49mD49mD49mD49mD49mD49mD49mD49mD49mD49mD49mD49mD49mD49mD
+        49mD49mD49mD49mD49mD49mD49mD49mD49mD49mF5duG5tyG5tyG5tyG5txYx8MDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpeD49mG5tyG5tyG5tyG5txYx8MD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpeD49mG5tyG
+        5tyG5tyG5txYx8MDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpeD49mG5tyG5tyG5tyG5txYx8MDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpeD49mG5tyG5tyG5tyG5txYx8MDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpeD49mG5tyG5tyG5tyG5txYx8MDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpeD49mG5tyG5tyG5tyG5txYx8MD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpeD49mG5tyG
+        5tyG5tyG5txYx8MDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpeD49mG5tyG5tyG5tyG5txYx8MDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpeD49mG5tyG5tyG5tyG5txYx8MDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpeD49mG5tyG5tyG5tyG5txYx8MDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpeD49mG5tyG5tyG5tyG5txYx8MD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpeD49mG5tyG
+        5tyG5tyG5txYx8MDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpeD49mG5tyG5tyG5tyG5txYx8MDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpeD49mG5tyG5tyG5tyG5txYx8MDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpeD49mG5tyG5tyG5tyG5txYx8MDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpeD49mG5tyG5tyG5tyG5txYx8MD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcE
+        jpcVmqAhoqYjo6cbnqMJkpoDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpeD49mG5tyG
+        5tyG5tyG5txYx8MDjpcDjpcDjpcDjpcDjpcDjpcDjpdcysVq081q081Zx8QDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcYm6Fq081q081q081q080wrK4DjpcDjpcDjpcDjpcD
+        jpcDjpcioqdayMR+4diG5tyG5tyG5tyG5tyF5dtr0806srMGkJgDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpeD49mG5tyG5tyG5tyG5txYx8MDjpcDjpcDjpcDjpcDjpcDjpcDjpd02dKG5tyG5txv19ADjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpdn0cuG5tyG5tyG5txx19AGkJgD
+        jpcDjpcDjpcDjpcJkZpXxsOF5duG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5txy2NEanaMDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpeD49mG5tyG5tyG5tyG5txYx8MDjpcDjpcDjpcDjpcDjpcDjpcDjpd02dKG
+        5tyG5txv19ADjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpc4sbKG5tyG5tyG
+        5tyF5dshoqcDjpcDjpcDjpcDjpcIkZpp0syG5tyG5tyG5tyG5txv1tBWxcJRwsBhzciB4tmG5tyG5tyG
+        5tx94NcanaMDjpcDjpcDjpcDjpcDjpcDjpcDjpeD49mG5tyG5tyG5tyG5txYx8MDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpd02dKG5tyG5txv19ADjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcQ
+        lp1+4NeG5tyG5tyG5txQwb8DjpcDjpcDjpcDjpcDjpdWxcKG5tyG5tyG5txx19AhoqYDjpcDjpcDjpcD
+        jpcNlJxWxcKG5tyG5tyG5txy2NEHkJkDjpcDjpcDjpcDjpcDjpcDjpeD49mG5tyG5tyG5tyG5txYx8MD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpd02dKG5tyG5txv19ADjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpdcycWG5tyG5tyG5tx43NQKkpoDjpcDjpcDjpcDjpchoqaF5duG5tyG5txu1s8Lk5sD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpdXxsKG5tyG5tyG5tw8tLUDjpcDjpcDjpcDjpcDjpcDjpeD49mG5tyG
+        5tyG5tyG5txYx8MDjpcDjpcDjpcDjpcDjpcDjpcDjpd02dKG5tyG5txv19ADjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcsqayG5tyG5tyG5tyG5twsqawDjpcDjpcDjpcDjpcDjpdayMSG5tyG
+        5tyE5dsanaIDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcLk5t939eG5tyG5txy2NEDjZYDjpcDjpcDjpcD
+        jpcDjpeD49mG5tyG5tyG5tyG5txYx8MDjpcDjpcDjpcDjpcDjpcDjpcDjpd02dKG5tyG5txv19ADjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcLk5t43NSG5tyG5tyG5txbycUDjpcDjpcDjpcDjpcD
+        jpcGj5iA4tiG5tyG5txey8cDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpc5srNQwb8/trYuqq0E
+        j5cDjpcDjpcDjpcDjpcDjpeD49mG5tyG5tyG5tyG5txYx8MDjpcDjpcDjpcDjpcDjpcDjpcDjpd02dKG
+        5tyG5txv19ADjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpdUxMGG5tyG5tyG5tx94NcQlp0D
+        jpcDjpcDjpcDjpcDjpccn6SG5tyG5tyG5tw3sbIDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpeD49mG5tyG5tyG5tyG5txYx8MDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpd02dKG5tyG5txv19ADjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcsqayF5duG5tyG
+        5tyG5twzrrADjpcDjpcDjpcDjpcDjpcDjpcuq62G5tyG5tyG5twfoaUDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpeD49mG5tyG5tyG5tyG5txYx8MD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpd02dKG5tyG5txv19ADjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcS
+        mJ5839aG5tyG5tyG5txVxMEDjpcDjpcDjpcDjpcDjpcDjpcDjpc3sLKG5tyG5tyG5txYxsNQwb9Qwb9Q
+        wb9Qwb9Qwb9Qwb9Qwb9Qwb9Qwb9Qwb9Qwb9Qwb9Qwb9Qwb8Rl54DjpcDjpcDjpcDjpcDjpeD49mG5tyG
+        5tyG5tyG5txYx8MDjpcDjpcDjpcDjpcDjpcDjpcDjpd02dKG5tyG5txv19ADjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcJkpps1M6G5tyG5tyG5txkz8oGkJgDjpcDjpcDjpcDjpcDjpcDjpcDjpc4sbKG5tyG5tyG
+        5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5twcn6QDjpcDjpcDjpcD
+        jpcDjpeD49mG5tyG5tyG5tyG5txYx8MDjpcDjpcDjpcDjpcDjpcDjpcDjpd02dKG5tyG5txv19ADjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcUmaBq082G5tyG5tyG5txhzMgJkZoDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcyra+G5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5twY
+        m6EDjpcDjpcDjpcDjpcDjpeD49mG5tyG5tyG5tyG5txYx8MDjpcDjpcDjpcDjpcDjpcDjpcDjpd02dKG
+        5tyG5tx53dU6srM6srM6srM6srM6s7RBt7dayMSC49qG5tyG5tx+4Nc3sLIDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpckpKiG5tyG5tyG5txGu7ojpKgjpKgjpKgjpKgjpKgjpKgjpKgjpKgjpKgjpKhR
+        wsCG5tyG5tyG5twLk5sDjpcDjpcDjpcDjpcDjpeD49mG5tyG5tyG5tyG5txYx8MDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpd02dKG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyA4tlkz8k6
+        s7MKk5oDjpcDjpcDjpcDjpcDjpcDjpcDjpcNlJyF5duG5tyG5txEubkDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpdSwsCG5tyG5tx43NQDjpcDjpcDjpcDjpcDjpcDjpeD49mG5tyG5tyG5tyG5txYx8MD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpd02dKG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG
+        5tyG5tyG5tyG5tyG5tx939c2sLEDjpcDjpcDjpcDjpcDjpcDjpcDjpdt1M6G5tyG5txt1M4DjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpd12tKG5tyG5txXxsMDjpcDjpcDjpcDjpcDjpcDjpeD49mG5tyG
+        5tyG5tyG5txYx8MDjpcDjpcDjpcDjpcDjpcDjpcDjpd02dKG5tyG5tyB4tlq081q081q081q081q081q
+        081q081q081t1c512tOD5NqG5tyG5tyG5tyG5tyG5txHu7oDjpcDjpcDjpcDjpcDjpcDjpc8tLSG5tyG
+        5tyG5twtqq0DjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcuq62G5tyG5tyG5twop6oDjpcDjpcDjpcDjpcD
+        jpcDjpeD49mG5tyG5tyG5tyG5txYx8MDjpcDjpcDjpcDjpcDjpcDjpcDjpd02dKG5tyG5txv19ADjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcGkJgkpKhfy8eG5tyG5tyG5tyF5dsrqKsDjpcDjpcDjpcD
+        jpcDjpcIkZl43NSG5tyG5tx+4NcfoaUDjpcDjpcDjpcDjpcDjpcDjpcdn6R939eG5tyG5txr080DjpcD
+        jpcDjpcDjpcDjpcDjpcDjpeD49mG5tyG5tyG5tyG5txYx8MDjpcDjpcDjpcDjpcDjpcDjpcDjpd02dKG
+        5tyG5txv19ADjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpdIvLuG5tyG5tyG5txw
+        19ADjpcDjpcDjpcDjpcDjpcDjpcmpamE5NuG5tyG5tyC49pKvbwYnKIEjpcDjpcVmqBGurmB4tmG5tyG
+        5tyA4tkanaMDjpcDjpcDjpcDjpcDjpcDjpcDjpeD49mG5tyG5tyG5tyG5txYx8MDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpd02dKG5tyG5txv19ADjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcE
+        j5dx2NGG5tyG5tyG5twanaIDjpcDjpcDjpcDjpcDjpcDjpcyra+D5NqG5tyG5tyG5tyG5tyE5NqD5NqG
+        5tyG5tyG5tyG5tyA4tknpqoDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpeD49mG5tyG5tyG5tyG5txYx8MD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpd02dKG5tyG5txv19ADjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpdFurmG5tyG5tyG5twyra8DjpcDjpcDjpcDjpcDjpcDjpcDjpcfoaVu1c+G5tyG
+        5tyG5tyG5tyG5tyG5tyG5tyG5txq080anaIDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpeD49mG5tyG
+        5tyG5tyG5txYx8MDjpcDjpcDjpcDjpcDjpcDjpcDjpd02dKG5tyG5txv19ADjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpc3sbKG5tyG5tyG5tw4srMDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcnpqlPwb9o0sx02dJ02dJo0sxPwL4lpKgDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpeD49mG5tyG5tyG5tyG5txYx8MDjpcDjpcDjpcDjpcDjpcDjpcDjpd02dKG5tyG5txv19ADjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpdGurqG5tyG5tyG5twxrK8DjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpeC49mE5NqF5duG5tyG5txYx8MDjpcDjpcDjpcDjpcDjpcDjpcDjpd02dKG
+        5tyG5txv19ADjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcFj5hz2dGG5tyG5tyG
+        5twZnKIDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpeC4tiE5NqE5NqG5tyG5txYx8MDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpd02dKG5tyG5txv19ADjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcEjpdS
+        w8CG5tyG5tyG5txx19ADjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpeD49mG5tyG5tyG5tyG5txYx8MD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpd02dKG5tyG5txw19ADjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcH
+        kJkWmqA1r7Fs1M6G5tyG5tyG5tyG5twxra8DjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpeD49mG5tyG
+        5tyG5tyG5txYx8MDjpcDjpcDjpcDjpcDjpcDjpcDjpd02dKG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG
+        5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5txayMQDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpeD49mG5tyG5tyG5tyG5txYx8MDjpcDjpcDjpcDjpcDjpcDjpcDjpd02dKG5tyG5tyG5tyG5tyG
+        5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyF5dtRwsAGkJgDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpeD49mG5tyG5tyG5tyG5txYx8MDjpcDjpcDjpcDjpcDjpcDjpcDjpd02dKG
+        5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyF5dt939dp0sxLvrwbnqMDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpeD49mG5tyG5tyG5tyG5txYx8MDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcMlJsNlZwNlZwNlZwNlZwNlZwNlZwNlZwNlZwNlZwNlZwNlZwNlZwMlJsGj5gDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpeD49mG5tyG5tyG5tyG5txYx8MD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpeD49mG5tyG
+        5tyG5tyG5txYx8MDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpeD49mG5tyG5tyG5tyG5txYx8MDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpeD49mG5tyG5tyG5tyG5txYx8MDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpeD49mG5tyG5tyG5tyG5txYx8MDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpeD49mG5tyG5tyG5tyG5txYx8MD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpeD49mG5tyG
+        5tyG5tyG5txYx8MDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpeD49mG5tyG5tyG5tyG5txYx8MDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpeD49mG5tyG5tyG5tyG5txYx8MDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpeD49mG5tyG5tyG5tyG5txYx8MDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpeD49mG5tyG5tyG5tyG5txYx8MD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpeD49mG5tyG
+        5tyG5tyG5txYx8MDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcDjpcD
+        jpcDjpeD49mG5tyG5tyG5tyG5txn0csuqq0uqq0uqq0uqq0uqq0uqq0uqq0uqq0uqq0uqq0uqq0uqq0u
+        qq0uqq0uqq0uqq0uqq0uqq0uqq0uqq0uqq0uqq0uqq0uqq0uqq0uqq0uqq0uqq0uqq0uqq0uqq0uqq0u
+        qq0uqq0uqq0uqq0uqq0uqq0uqq0uqq0uqq0uqq0uqq0uqq0uqq0uqq0uqq0uqq0uqq0uqq0uqq0uqq0u
+        qq0uqq0uqq0uqq0uqq0uqq2E5NqG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG
+        5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG
+        5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG
+        5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG
+        5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG
+        5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG
+        5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5tyG5twAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</value>
+  </data>
+</root>
